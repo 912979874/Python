@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a95c0c8b-b937-4580-985b-712f6bed3a5b" name="默认的" comment="默认的" />
+    <list default="true" id="a95c0c8b-b937-4580-985b-712f6bed3a5b" name="默认的" comment="默认的">
+      <change afterPath="$PROJECT_DIR$/python高级1/autosend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/WorkSpese.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WorkSpese.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,50 +22,14 @@
     <SUITE FILE_PATH="coverage/WorkSpese$send.coverage" NAME="send发送 Coverage Results" MODIFIED="1562644043642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级1" />
     <SUITE FILE_PATH="coverage/WorkSpese$Hello.coverage" NAME="Hello Coverage Results" MODIFIED="1544407220617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WorkSpese$__1_.coverage" NAME="闭包 (1) Coverage Results" MODIFIED="1562742499358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级1" />
+    <SUITE FILE_PATH="coverage/WorkSpese$autosend.coverage" NAME="autosend Coverage Results" MODIFIED="1566037442046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python高级1" />
     <SUITE FILE_PATH="coverage/WorkSpese$test.coverage" NAME="test Coverage Results" MODIFIED="1552902029926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="WorkSpese" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python高级1/函数引用.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python高级1/闭包.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python高级1/迭代器generator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python高级1/装饰器.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,14 +56,15 @@
         <option value="$PROJECT_DIR$/python高级1/装饰器.py" />
         <option value="$PROJECT_DIR$/python高级1/迭代器generator.py" />
         <option value="$PROJECT_DIR$/python高级1/闭包.py" />
+        <option value="$PROJECT_DIR$/python高级1/autosend.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="432" />
-    <option name="y" value="23" />
+    <option name="x" value="658" />
+    <option name="y" value="182" />
     <option name="width" value="1110" />
-    <option name="height" value="930" />
+    <option name="height" value="928" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -134,10 +106,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Python" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Python\WorkSpese\python高级1" />
       <recent name="C:\Python\WorkSpese" />
     </key>
   </component>
@@ -153,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.send发送">
+  <component name="RunManager" selected="Python.autosend">
     <configuration name="闭包 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WorkSpese" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -352,6 +325,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="autosend" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WorkSpese" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python高级1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python高级1/autosend.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="迭代器generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WorkSpese" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -398,6 +393,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.autosend" />
         <item itemvalue="Python.闭包 (1)" />
         <item itemvalue="Python.send发送" />
         <item itemvalue="Python.迭代器generator" />
@@ -448,6 +444,8 @@
       <workItem from="1565677877048" duration="3932000" />
       <workItem from="1565835538871" duration="1015000" />
       <workItem from="1565918601093" duration="1315000" />
+      <workItem from="1565922808267" duration="1281000" />
+      <workItem from="1566031754317" duration="5844000" />
     </task>
     <task id="LOCAL-00001" summary="默认的">
       <created>1563180280955</created>
@@ -467,29 +465,38 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100397000" />
+    <option name="totallyTimeSpent" value="107522000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="32767" y="32767" width="336" height="336" extended-state="0" />
+    <frame x="658" y="182" width="1110" height="928" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49828178" visible="true" weight="1.0" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49828178" visible="true" weight="0.19333333" />
       <window_info id="Structure" order="1" sideWeight="0.5017182" side_tool="true" weight="0.25373134" />
       <window_info id="Favorites" order="2" sideWeight="0.5017182" side_tool="true" weight="0.25373134" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="0" weight="0.32729805" />
       <window_info anchor="bottom" id="Messages" order="1" sideWeight="0.49920633" weight="0.32635984" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" x="50" y="424" width="1870" height="215" id="Run" order="4" weight="0.98029554" />
+      <window_info anchor="bottom" x="50" y="424" width="1870" height="215" id="Run" order="4" sideWeight="0.4990476" weight="0.20226131" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.32914573" />
       <window_info anchor="bottom" id="运行" order="9" weight="0.3973799" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.26818183" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32775453" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50079364" side_tool="true" weight="0.32729805" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.4990476" weight="0.32788944" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.50095236" side_tool="true" weight="0.32663316" />
       <window_info anchor="bottom" id="调试" order="15" weight="0.32949308" />
       <window_info anchor="bottom" id="Python Console" order="16" weight="0.32914925" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" />
@@ -554,6 +561,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
     <MESSAGE value="第一次提交" />
     <MESSAGE value="默认的" />
     <option name="LAST_COMMIT_MESSAGE" value="默认的" />
@@ -580,20 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python高级1/动态删除属性方法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python高级1/斐波拉契数列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python高级1/send发送.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -608,6 +605,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python高级1/动态删除属性方法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python高级1/闭包.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -615,17 +619,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python高级1/迭代器generator.py">
+    <entry file="file://$PROJECT_DIR$/python高级1/斐波拉契数列.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        <state relative-caret-position="482">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python高级1/装饰器.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="32" column="24" lean-forward="true" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        <state relative-caret-position="875">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python高级1/autosend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding>
+            <element signature="e#18#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python高级1/迭代器generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
