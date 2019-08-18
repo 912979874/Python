@@ -17,9 +17,10 @@ def text_reply(msg):
 def other_reply(msg):
     #想给谁发信息
     users=itchat.search_friends(name='miki')
+    user1=itchat.search_friends(userName='miki')
     #找到username
     userName=users[0]['UserName']
-    itchat.send('[自动回复] 主人%s给你发语音或者文件了'%name['FromUserName'],toUserName=userName)
+    itchat.send('[自动回复] 主人%s给你发语音或者文件了'%msg.fromUserName,toUserName=userName)
 
-itchat.auto_login(hotReload=False)
-itchat.run()
+#itchat.auto_login(hotReload=False)
+#itchat.run()
